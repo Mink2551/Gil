@@ -5,9 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const LeftSection = () => {
     return(
         <div className=''>
-          <div className='sticky top-20  grid grid-rows-[3fr_8fr_1fr] h-screen'>
+          <div className='sticky top-24  grid grid-rows-[3fr_8fr_3fr] h-96vh'>
             <div className=''>             
-              <div className='ml-36 mb-2 font-bold text-4xl text-primary6 m-5'>3Fahprathanmaa's</div> 
+              <div className='ml-36 mb-2 font-bold text-4xl text-primary6 mx-5'>3Fahprathanmaa's</div> 
               <div className='ml-36 font-semibold text-xl text-primary8'>Party Policy</div> 
               <div className='ml-36 mt-3 font-extralight text-md text-gray-400 mr-12'>นโยบาย และ สิ่งที่เราจะเปลี่ยนแปลง คือ ความก้าวหน้าในโรงเรียน! เรามาร่วมเป็นส่วนร่วมในการช่วยกันพัฒนาโรงเรียนของเราให้ดีขึ้นกัน</div>
             </div>
@@ -19,7 +19,7 @@ const LeftSection = () => {
               <div>ฝ่ายเทคโนโลยี และ สาระสนเทศ</div> 
             </div>
             <div className='grid text-white ml-36 grid-item-end'>              
-              <div className='mt-4 flex gap-3 mb-8'>
+              <div className='mt-24 flex gap-3 '>
                     <div className='ml-1 flex gap-3 text-4xl'>
                     <a href="https://www.instagram.com/scarlet_marrionante_/" target='_blank'>
                       <FontAwesomeIcon className='hover:scale-125 transition-all' icon={faInstagram}/>
