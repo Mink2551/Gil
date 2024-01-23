@@ -13,12 +13,29 @@ function App() {
   
 
   return (
-    <div>
+    <div className=''>
        <Navbar />
-      <div className='grid 2xl:grid-cols-[3fr_3fr_3fr] '>
+      <div className='grid 2xl:grid-cols-[3fr_6fr] '>
         <Page2img1/>
-        <Persernalinformation/>
-        <Rightinformation/>
+       
+        <div>
+          <div>         
+            <div className='pb-12 bg-primary4 text-4xl'>
+              <div className='text-white pt-14 pl-10 font-bold'>
+                 รู้จักกับ 3Fahprathanmaa
+              </div>
+            </div>
+          </div>
+          <div className='grid 2xl:grid-cols-[1fr_1fr]'>
+            
+              <Persernalinformation/>
+              <Rightinformation/>
+            
+
+          </div>
+          
+        </div>
+        
       </div>
         <Whyyoubeenhere/>
       <Social/>
