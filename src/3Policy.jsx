@@ -16,7 +16,7 @@ function App() {
                   <FontAwesomeIcon icon={faArrowLeftLong}/> 
                 </a>
       </div>
-      <div className=' mx-auto max-w-7xl grid lg:grid-cols-[4fr_6fr] gap-14 bg-primarybg2'>
+      <div className=' mx-auto max-w-7xl grid lg:grid-cols-[4fr_6fr] gap-14 '>
         <LeftSection/>
         <RightSection/>       
       </div>
