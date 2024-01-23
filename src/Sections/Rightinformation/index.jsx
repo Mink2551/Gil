@@ -1,8 +1,7 @@
 const Rightinformation = () => {
     return(
         <div>
-          <div className=' pb-36 bg-primary4'></div>
-          <div className=' grid ml-5 mr-5 '>
+          <div className='grid ml-5 mr-5 '>
             <div className='mt-7 ml-7 mb-5 font-bold text-3xl text-primary4'>ประวัติการศึกษา</div>
               <div className='grid grid-cols-[2fr_5fr_3fr]'>
                  <div className='font-extralight text-gray-600'>

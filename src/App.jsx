@@ -11,7 +11,7 @@ function Home() {
   
 
   return (
-    <div>
+    <div className=''>
        <Navbar/>
       <div className='mx-auto grid 2xl:grid-cols-[70%_30%]'>         
            <Header />       

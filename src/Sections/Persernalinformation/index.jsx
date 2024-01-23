@@ -1,11 +1,7 @@
 const Persernalinformation = () => {
     return(
         <div>
-          <div className='pb-12 bg-primary4 text-4xl'>
-              <div className='text-white pt-14 pl-10 font-bold'>
-                 รู้จักกับ 3Fahprathanmaa
-              </div>
-          </div>
+         
           <div className='m-7 text-xl gap-5 flex flex-cols-[5fr_5fr]'>
             <div className='grid gap-3 font-normal'> 
               <div>ชื่อ:</div>
