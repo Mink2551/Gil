@@ -15,12 +15,12 @@ function App() {
   return (
     <div>
        <Navbar />
-      <div className='grid 2xl:grid-cols-[3fr_3fr_3fr] mx-auto'>
+      <div className='grid 2xl:grid-cols-[3fr_3fr_3fr] '>
         <Page2img1/>
         <Persernalinformation/>
         <Rightinformation/>
       </div>
-      <Whyyoubeenhere/>
+        <Whyyoubeenhere/>
       <Social/>
     </div>
   )
