@@ -19,6 +19,7 @@ export default {
         primary6: "#7EA1FF",
         primary7: "#CDE8FF",
         primary8: "#ADE2FF",
+        primary9: "#000080",
         primarybg1: "#161C35",
         primarybg2: "#0E0E0E",
         

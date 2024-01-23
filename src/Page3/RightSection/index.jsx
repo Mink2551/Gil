@@ -13,8 +13,22 @@ const RightSection = () => {
                 <div className="grid gap-5">
                   <div className="font-medium text-xl">SaphaPM</div>
                   <div className="text-sm text-gray-400">·ให้มีการประชุมระหว่างคณะกรรมการนักเรียนกับหัวหน้าห้องทุกระดับชั้น 1 เดือน 1 ครั้ง เพื่อแก้ไขปัญหาในโรงเรียนทียังมีอยู่</div>
-                  <div>
-                    <a href=""><FontAwesomeIcon icon={faArrowUpRightFromSquare}/>  อ่านข้อมูลเพิ่มเติม</a>
+                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
+                    <a href=""><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
+                  </div>
+                </div>
+                
+             </div>
+
+             <div className="grid grid-cols-[3fr_7fr]">
+                <div>
+                  Picture
+                </div>
+                <div className="grid gap-5">
+                  <div className="font-medium text-xl">UniformUnisex</div>
+                  <div className="text-sm text-gray-400">·ชุด Unifrom ไม่จำกัดเพศตั้งแต่ รองเท้า กระโปรง กางเกง เสื้อ และ เนกไท</div>
+                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
+                    <a href=""><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
                   </div>
                 </div>
                 
