@@ -1,6 +1,6 @@
 import { faInstagram, faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Logo2 from "/Logo.png?url"
+import Logo2 from "/Logo2.jpg?url"
 
 
 const Social = () =>{

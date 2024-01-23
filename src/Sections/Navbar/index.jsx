@@ -16,7 +16,7 @@ const Navbar = () =>{
                 <a href="/about">
                   <div className='text-blue-900 hover:text-gray-200 transition-all'>เกี่ยวกับ</div>
                 </a>
-                <a href="">
+                <a href="/policy">
                   <div className='text-blue-900 hover:text-gray-200 transition-all'>นโยบาย</div>
                 </a>
                 <a href="">

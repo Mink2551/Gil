@@ -1,28 +1,26 @@
-import { useEffect } from 'react'
 import './App.css'
-import LeftSection from './Page3/LeftSection'
-import RightSection from './Page3/RightSection'
-import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Header from './Sections/header'
+import Navbar from './Sections/Navbar'
+import Social from './Sections/Social'
+import Rightsections from './Sections/Rightsections/Rightsections'
 
 
 
 
-function App() {
+function Home() {
+  
+
   return (
     <div>
-      <div className='text-white ml-8 mt-6 text-3xl sticky top-6'>
-                <a href="" className='hover:text-gray-400'>
-                  <FontAwesomeIcon icon={faArrowLeftLong}/> 
-                </a>
+       <Navbar/>
+      <div className='mx-auto grid 2xl:grid-cols-[70%_30%]'>         
+           <Header />       
+           <Rightsections />
       </div>
-      <div className=' mx-auto max-w-7xl grid lg:grid-cols-[4fr_6fr] gap-14 bg-primarybg2'>
-        <LeftSection/>
-        <RightSection/>       
-      </div>
+
+      <Social/>
     </div>
-      
   )
 }
 
-export default App
+export default Home

@@ -12,8 +12,8 @@ const Rightsections = () =>{
                 <div className='text-black-200 test-xl font-medium'>{data.content1}</div>
                 <div className='mt-6'>
                   <span className='bg-primaryAccent rounded-md text-gray-200 py-3 px-4 transition-all hover:bg-primary4'>
-                    <a href="#">
-                    {data.Botton1} 
+                    <a href="/about">
+                       {data.Botton1} 
                       <FontAwesomeIcon className='text-sm ml-2' icon={faArrowRight} />
                     </a>
                   </span>
@@ -31,7 +31,7 @@ const Rightsections = () =>{
                   <div className='text-black-200 test-xl font-medium mt-2'>{data.content2}</div>
                   <div className='mt-6'>
                     <span className='bg-primaryAccent rounded-md text-gray-200 py-3 px-4 transition-all hover:bg-primary4'>
-                      <a href="#">
+                      <a href="/policy">
                         {data.Botton2}
                         <FontAwesomeIcon className='text-sm ml-2' icon={faArrowRight} />
                       </a>
