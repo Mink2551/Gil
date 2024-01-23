@@ -1,4 +1,4 @@
-import Gil3 from '../../../public/Gil3.jpg'
+import Gil3 from '/Gil3.jpg?url'
 
 const Whyyoubeenhere = () => {
     return(

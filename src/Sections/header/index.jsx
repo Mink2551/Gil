@@ -1,4 +1,4 @@
-import picExp from "../../../public/Gilbert333.jpg"
+import picExp from "/Gilbert333.jpg?url"
 
 const Header = () =>{
     return(

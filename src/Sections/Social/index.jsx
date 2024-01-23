@@ -1,6 +1,6 @@
 import { faInstagram, faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Logo2 from "../../../public/Logo2.png"
+import Logo2 from "/Logo.png?url"
 
 
 const Social = () =>{
@@ -19,10 +19,10 @@ const Social = () =>{
                   <div>ผู้สมัครประธานนักเรียน ปีการศึกษา 2567 หมายเลข 3</div>
                   <div className='mt-4 flex gap-3'>
                     <div className='ml-1 flex gap-3 text-4xl'>
-                    <a href="https://www.instagram.com/scarlet_marrionante_/" target='_blank'>
+                    <a href="https://www.instagram.com/scarlet_marrionante_/" rel="noreferrer" target='_blank'>
                       <FontAwesomeIcon className='hover:scale-125 transition-all' icon={faInstagram}/>
                     </a>
-                    <a href="https://www.instagram.com/gilbertlnwza333.airline/" target='_blank'>
+                    <a href="https://www.instagram.com/gilbertlnwza333.airline/" rel="noreferrer" target='_blank'>
                       <FontAwesomeIcon className='hover:scale-125 transition-all' icon={faInstagramSquare}/>
                    </a>
                     
