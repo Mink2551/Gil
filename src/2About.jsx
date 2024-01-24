@@ -15,7 +15,7 @@ function App() {
   return (
     <div className=''>
        <Navbar />
-      <div className='grid 2xl:grid-cols-[3fr_6fr] '>
+      <div className='grid xl:grid-cols-[3fr_6fr] '>
         <Page2img1/>
        
         <div>
@@ -26,7 +26,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className='grid 2xl:grid-cols-[1fr_1fr]'>
+          <div className='grid xl:grid-cols-[1fr_1fr]'>
             
               <Persernalinformation/>
               <Rightinformation/>
