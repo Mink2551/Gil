@@ -2,7 +2,7 @@ const Persernalinformation = () => {
     return(
         <div>
          
-          <div className='m-7 text-xl gap-3 lg:gap-5 grid lg:grid-cols-[5fr_5fr]'>
+          <div className='m-7 text-xl gap-3 sm:gap-5 grid sm:grid-cols-[5fr_5fr]'>
             
               <div className='font-medium'>ชื่อ:</div>
               <div className='font-normal text-gray-600'>นายธีระเศรษฐ์ พิมลวิรัชกุล(กิลเบิร์ต)</div>
