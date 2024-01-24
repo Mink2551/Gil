@@ -1,9 +1,17 @@
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import UNFUNS from "../../../../../public/Uniformunisex.png"
 import Saphapm from "../../../../../public/SaphaPm.png"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import sahagon from "../../../../../public/3.png"
+import taebut from "../../../../../public/4.png"
+import hair from "../../../../../public/5.png"
+import calendar from "../../../../../public/6.png"
+import pmstaff from "../../../../../public/7.png"
+import dayblank from "../../../../../public/8.png"
+import trophy from "../../../../../public/9.png"
+import mv from "../../../../../public/10.png"
+import handtwo from "../../../../../public/11.png"
 import { data } from "../../../../Contents/Policy"
 import { useState } from "react";
+
 
 
 const Policy1 = () => {
@@ -11,7 +19,7 @@ const Policy1 = () => {
 
 
     return(
-        <div className="mb-96 grid m-5 ">
+        <div className="mb-96 grid m-5 mt-8 ">
             <div className="text-gray-600 grid gap-7" >ฝ่ายกิจการนักเรียน</div>
            
              <div 
@@ -57,7 +65,7 @@ const Policy1 = () => {
                   onMouseLeave={() => setIsMouseEnter({ ['policy3']: false})}
              >
                 <div>
-                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={sahagon} />
                 </div>
                 <div className="grid gap-5">
                   <div className={`font-medium ${isMouseEnter['policy3']? "text-primary11" : ""} text-xl`}> {data.Main3} </div>
@@ -76,7 +84,7 @@ const Policy1 = () => {
                   onMouseLeave={() => setIsMouseEnter({ ['policy4']: false})}
              >
                 <div>
-                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={taebut} />
                 </div>
                 <div className="grid gap-5">
                   <div className={`font-medium ${isMouseEnter['policy4']? "text-primary11" : ""} text-xl`}> {data.Main4} </div>
@@ -94,7 +102,7 @@ const Policy1 = () => {
                   onMouseLeave={() => setIsMouseEnter({ ['policy5']: false})}
              >
                 <div>
-                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={hair} />
                 </div>
                 <div className="grid gap-5">
                   <div className={`font-medium ${isMouseEnter['policy5']? "text-primary11" : ""} text-xl`}> {data.Main5} </div>
@@ -112,14 +120,14 @@ const Policy1 = () => {
                   onMouseLeave={() => setIsMouseEnter({ ['policy6']: false})}
              >
                 <div>
-                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={calendar} />
                 </div>
                 <div className="grid gap-5">
                   <div className={`font-medium ${isMouseEnter['policy6']? "text-primary11" : ""} text-xl`}> {data.Main6} </div>
                   <div className="text-sm text-gray-400"> {data.Content6}</div>
                   <div className="flex gap-4 text-sm">
-                      <div className={`bg-gray-600 px-2 py-1 my-auto bg-opacity-80 rounded-md text-gray-400 ${isMouseEnter[`policyุ6`]? "text-primary11" : ""}`}>กิจการนักเรียน</div>
-                      <div className={`bg-gray-600 px-2 py-1 my-auto bg-opacity-80 rounded-md text-gray-400 ${isMouseEnter[`policyุ6`]? "text-primary11" : ""}`}>กิจกรรม</div>
+                      <div className={`bg-gray-600 px-2 py-1 my-auto bg-opacity-80 rounded-md text-gray-400 ${isMouseEnter[`policy6`]? "text-primary11" : ""}`}>กิจการนักเรียน</div>
+                      <div className={`bg-gray-600 px-2 py-1 my-auto bg-opacity-80 rounded-md text-gray-400 ${isMouseEnter[`policy6`]? "text-primary11" : ""}`}>กิจกรรม</div>
                   </div>
                 </div>                
              </div> 
@@ -130,7 +138,7 @@ const Policy1 = () => {
                   onMouseLeave={() => setIsMouseEnter({ ['policy7']: false})}
              >
                 <div>
-                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={pmstaff} />
                 </div>
                 <div className="grid gap-5">
                   <div className={`font-medium ${isMouseEnter['policy7']? "text-primary11" : ""} text-xl`}> {data.Main7} </div>
@@ -149,7 +157,7 @@ const Policy1 = () => {
                   onMouseLeave={() => setIsMouseEnter({ ['policy8']: false})}
              >
                 <div>
-                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={dayblank} />
                 </div>
                 <div className="grid gap-5">
                   <div className={`font-medium ${isMouseEnter['policy8']? "text-primary11" : ""} text-xl`}> {data.Main8} </div>
@@ -168,7 +176,7 @@ const Policy1 = () => {
                   onMouseLeave={() => setIsMouseEnter({ ['policy9']: false})}
              >
                 <div>
-                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={trophy} />
                 </div>
                 <div className="grid gap-5">
                   <div className={`font-medium ${isMouseEnter['policy9']? "text-primary11" : ""} text-xl`}> {data.Main9} </div>
@@ -187,7 +195,7 @@ const Policy1 = () => {
                   onMouseLeave={() => setIsMouseEnter({ ['policy10']: false})}
              >
                 <div>
-                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={mv} />
                 </div>
                 <div className="grid gap-5">
                   <div className={`font-medium ${isMouseEnter['policy10']? "text-primary11" : ""} text-xl`}> {data.Main10} </div>
@@ -205,7 +213,7 @@ const Policy1 = () => {
                   onMouseLeave={() => setIsMouseEnter({ ['policy11']: false})}
              >
                 <div>
-                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={handtwo} />
                 </div>
                 <div className="grid gap-5">
                   <div className={`font-medium ${isMouseEnter['policy11']? "text-primary11" : ""} text-xl`}> {data.Main11} </div>
