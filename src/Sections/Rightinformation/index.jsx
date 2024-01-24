@@ -3,22 +3,23 @@ const Rightinformation = () => {
         <div>
           <div className='grid ml-5 mr-5 '>
             <div className='mt-7 ml-7 mb-5 font-bold text-3xl text-primary4'>ประวัติการศึกษา</div>
-              <div className='grid grid-cols-[2fr_5fr_3fr]'>
-                 <div className='font-extralight text-gray-600'>
-                   <div>ประถมศึกษา :</div>
-                   <div>มัธยมศึกษา :</div>
+              <div className='grid sm:grid-cols-[2fr_5fr_3fr]'>               
+                 
+                   <div  className='font-extralight text-gray-600'>ประถมศึกษา :</div>
+                   
+                   
+                   <div  className='font-extralight text-gray-600'>โรงเรียนแสงโสม</div>
 
-                 </div>
-                 <div className='font-extralight text-gray-600 mr-5'>
-                   <div>โรงเรียนแสงโสม</div>
-                   <div>โรงเรียนสาธิตวัดพระศรีมหาธาตุ มหาวิทยาลัยราชภัฏพระนคร </div>
-
-                 </div>
-                 <div>
                    <div>เกรดเฉลี่ย : 3.88</div>
+ 
+                   <div  className='font-extralight text-gray-600'>มัธยมศึกษา :</div>
+                   
+                   <div  className='font-extralight text-gray-600'>โรงเรียนสาธิตวัดพระศรีมหาธาตุ มหาวิทยาลัยราชภัฏพระนคร </div>
+
+                 
                    <div>เกรดเฉลี่ย : 3.84</div>
 
-                 </div>
+                 
               </div>
             <div className='mt-14 ml-7 mb-5 font-bold text-3xl text-primary4'>ผลงาน</div>
               <div className='font-extralight text-xl text-gray-600 grid gap-3'>
