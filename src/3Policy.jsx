@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App() {
   return (
-    <div className='bg-primarybg2'>
+    <div className='bg-primarybg1'>
       <div className='text-white ml-8 pt-1 text-3xl sticky top-6'>
                 <a href="/" className='hover:text-gray-400'>
                   <FontAwesomeIcon icon={faArrowLeftLong}/> 

@@ -1,41 +1,9 @@
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Policy1 from "./Policy/กิจการนักเรียน";
 
 const RightSection = () => {
     return(
         <div className='mr-24 mt-4 ml-16 gird  text-white'>
-          <div className="mb-96 grid gap-10 m-5">
-             <div className="text-gray-600" >ฝ่ายกิจการนักเรียน</div>
-             <div className="grid grid-cols-[3fr_7fr]">
-                <div>
-                  Picture
-                </div>
-                <div className="grid gap-5">
-                  <div className="font-medium text-xl">SaphaPM</div>
-                  <div className="text-sm text-gray-400">·ให้มีการประชุมระหว่างคณะกรรมการนักเรียนกับหัวหน้าห้องทุกระดับชั้น 1 เดือน 1 ครั้ง เพื่อแก้ไขปัญหาในโรงเรียนทียังมีอยู่</div>
-                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
-                    <a href=""><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
-                  </div>
-                </div>
-                
-             </div>
-
-             <div className="grid grid-cols-[3fr_7fr]">
-                <div>
-                  Picture
-                </div>
-                <div className="grid gap-5">
-                  <div className="font-medium text-xl">UniformUnisex</div>
-                  <div className="text-sm text-gray-400">·ชุด Unifrom ไม่จำกัดเพศตั้งแต่ รองเท้า กระโปรง กางเกง เสื้อ และ เนกไท</div>
-                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
-                    <a href=""><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
-                  </div>
-                </div>
-                
-             </div>
-               
-
-          </div>
+           <Policy1/>
           
 
           <div className="mb-96">
