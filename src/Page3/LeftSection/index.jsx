@@ -27,7 +27,7 @@ const LeftSection = () => {
                     <a href="https://www.instagram.com/gilbertlnwza333.airline/" target='_blank'>
                       <FontAwesomeIcon className='hover:scale-125 mt-4 transition-all' icon={faInstagramSquare}/>
                    </a>
-                      <div className="text-sm text-gray-600 mt-3 grid">
+                      <div className="text-sm text-gray-600 mt-7 flex">
                         inspiration from <a className="hover:text-gray-400 " target='_blank' href="https://blackboy96.xyz/">"https://blackboy96.xyz/"</a>
                       </div>
                     </div>                
