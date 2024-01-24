@@ -1,175 +1,225 @@
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import Wind from "../../../../../public/wind.jpg"
+import UNFUNS from "../../../../../public/Uniformunisex.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { data } from "../../../../Contents/Policy"
+import { useState } from "react";
+
 
 const Policy1 = () => {
+  const [isMouseEnter, setIsMouseEnter] = useState({});
+
+
     return(
-        <div className="mb-96 grid m-5 grid gap-10 ">
-            <div className="text-gray-600 " >ฝ่ายกิจการนักเรียน</div>
-             <div className="grid grid-cols-[3fr_7fr] ">
+        <div className="mb-96 grid m-5 ">
+            <div className="text-gray-600 grid gap-7" >ฝ่ายกิจการนักเรียน</div>
+           
+             <div 
+                  className={`grid grid-cols-[3fr_7fr] transition-all ${isMouseEnter['policy1']? "bg-primary10 bg-opacity-20" : ""} rounded-xl py-6`}
+                  onMouseEnter={() => setIsMouseEnter({ ['policy1']: true})}
+                  onMouseLeave={() => setIsMouseEnter({ ['policy1']: false})}
+             >
                 <div>
                   <img className='w-2/4 mx-auto my grid rounded-md mt-4 opacity-80' src={Wind} />
                 </div>
                 <div className="grid gap-5">
-                  <div className="font-medium text-xl"> {data.Main1} </div>
+                  <div className={`font-medium ${isMouseEnter['policy1']? "text-blue-400" : ""} text-xl`}> {data.Main1} </div>
                   <div className="text-sm text-gray-400"> {data.Content1}</div>
-                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
-                    <a href={data.Link1}><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
+                  <div className={`text-sm text-gray-600 mr-1 ${isMouseEnter['policy1']? "text-primaryTitle underline" : "" }`} >
+                    <a href={data.Link1}><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> ติดตามผลงาน</a>
                   </div>
                 </div>                
              </div> 
 
-             <div className="grid grid-cols-[3fr_7fr]">
+             <div 
+                  className={`grid grid-cols-[3fr_7fr] transition-all ${isMouseEnter['policy2']? "bg-primary10 bg-opacity-20" : ""} rounded-xl py-6`}
+                  onMouseEnter={() => setIsMouseEnter({ ['policy2']: true})}
+                  onMouseLeave={() => setIsMouseEnter({ ['policy2']: false})}
+             >
                 <div>
-                   <img className='w-2/4 mx-auto my grid rounded-md mt-4 opacity-80' src={Wind} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
                 </div>
                 <div className="grid gap-5">
-                  <div className="font-medium text-xl">{data.Main2}</div>
-                  <div className="text-sm text-gray-400">{data.Content2}</div>
-                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
-                    <a href={data.Link2}><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
+                  <div className={`font-medium ${isMouseEnter['policy2']? "text-blue-400" : ""} text-xl`}> {data.Main2} </div>
+                  <div className="text-sm text-gray-400"> {data.Content2}</div>
+                  <div className={`text-sm text-gray-600 mr-1 ${isMouseEnter['policy2']? "text-primaryTitle underline" : "" }`} >
+                    <a href={data.Link1}><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> ติดตามผลงาน</a>
                   </div>
-                </div>                                
-             </div>
+                </div>                
+             </div> 
 
-             <div className="grid grid-cols-[3fr_7fr]">
+             <div 
+                  className={`grid grid-cols-[3fr_7fr] transition-all ${isMouseEnter['policy3']? "bg-primary10 bg-opacity-20" : ""} rounded-xl py-6`}
+                  onMouseEnter={() => setIsMouseEnter({ ['policy3']: true})}
+                  onMouseLeave={() => setIsMouseEnter({ ['policy3']: false})}
+             >
                 <div>
-                   <img className='w-2/4 mx-auto my grid rounded-md mt-4 opacity-80' src={Wind} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
                 </div>
                 <div className="grid gap-5">
-                  <div className="font-medium text-xl">{data.Main3}</div>
-                  <div className="text-sm text-gray-400">{data.Content3}</div>
-                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
-                    <a href={data.Link3}><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
+                  <div className={`font-medium ${isMouseEnter['policy3']? "text-blue-400" : ""} text-xl`}> {data.Main3} </div>
+                  <div className="text-sm text-gray-400"> {data.Content3}</div>
+                  <div className={`text-sm text-gray-600 mr-1 ${isMouseEnter['policy3']? "text-primaryTitle underline" : "" }`} >
+                    <a href={data.Link1}><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> ติดตามผลงาน</a>
                   </div>
-                </div>                                
-             </div>
+                </div>                
+             </div> 
 
-             <div className="grid grid-cols-[3fr_7fr]">
+             <div 
+                  className={`grid grid-cols-[3fr_7fr] transition-all ${isMouseEnter['policy4']? "bg-primary10 bg-opacity-20" : ""} rounded-xl py-6`}
+                  onMouseEnter={() => setIsMouseEnter({ ['policy4']: true})}
+                  onMouseLeave={() => setIsMouseEnter({ ['policy4']: false})}
+             >
                 <div>
-                   <img className='w-2/4 mx-auto my grid rounded-md mt-4 opacity-80' src={Wind} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
                 </div>
                 <div className="grid gap-5">
-                  <div className="font-medium text-xl">{data.Main4}</div>
-                  <div className="text-sm text-gray-400">{data.Content4}</div>
-                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
-                    <a href={data.Link4}><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
+                  <div className={`font-medium ${isMouseEnter['policy4']? "text-blue-400" : ""} text-xl`}> {data.Main4} </div>
+                  <div className="text-sm text-gray-400"> {data.Content4}</div>
+                  <div className={`text-sm text-gray-600 mr-1 ${isMouseEnter['policy4']? "text-primaryTitle underline" : "" }`} >
+                    <a href={data.Link1}><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> ติดตามผลงาน</a>
                   </div>
-                </div>                                
-             </div>
+                </div>                
+             </div> 
 
-
-             <div className="grid grid-cols-[3fr_7fr]">
+             <div 
+                  className={`grid grid-cols-[3fr_7fr] transition-all ${isMouseEnter['policy2']? "bg-primary10 bg-opacity-20" : ""} rounded-xl py-6`}
+                  onMouseEnter={() => setIsMouseEnter({ ['policy2']: true})}
+                  onMouseLeave={() => setIsMouseEnter({ ['policy2']: false})}
+             >
                 <div>
-                   <img className='w-2/4 mx-auto my grid rounded-md mt-4 opacity-80' src={Wind} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
                 </div>
                 <div className="grid gap-5">
-                  <div className="font-medium text-xl">{data.Main5}</div>
-                  <div className="text-sm text-gray-400">{data.Content5}</div>
-                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
-                    <a href={data.Link5}><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
+                  <div className={`font-medium ${isMouseEnter['policy2']? "text-blue-400" : ""} text-xl`}> {data.Main2} </div>
+                  <div className="text-sm text-gray-400"> {data.Content2}</div>
+                  <div className={`text-sm text-gray-600 mr-1 ${isMouseEnter['policy2']? "text-primaryTitle underline" : "" }`} >
+                    <a href={data.Link1}><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> ติดตามผลงาน</a>
                   </div>
-                </div>                                
-             </div>
+                </div>                
+             </div> 
 
-
-             <div className="grid grid-cols-[3fr_7fr]">
+             <div 
+                  className={`grid grid-cols-[3fr_7fr] transition-all ${isMouseEnter['policy2']? "bg-primary10 bg-opacity-20" : ""} rounded-xl py-6`}
+                  onMouseEnter={() => setIsMouseEnter({ ['policy2']: true})}
+                  onMouseLeave={() => setIsMouseEnter({ ['policy2']: false})}
+             >
                 <div>
-                   <img className='w-2/4 mx-auto my grid rounded-md mt-4 opacity-80' src={Wind} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
                 </div>
                 <div className="grid gap-5">
-                  <div className="font-medium text-xl">{data.Main6}</div>
-                  <div className="text-sm text-gray-400">{data.Content6}</div>
-                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
-                    <a href={data.Link6}><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
+                  <div className={`font-medium ${isMouseEnter['policy2']? "text-blue-400" : ""} text-xl`}> {data.Main2} </div>
+                  <div className="text-sm text-gray-400"> {data.Content2}</div>
+                  <div className={`text-sm text-gray-600 mr-1 ${isMouseEnter['policy2']? "text-primaryTitle underline" : "" }`} >
+                    <a href={data.Link1}><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> ติดตามผลงาน</a>
                   </div>
-                </div>                                
-             </div>
+                </div>                
+             </div> 
 
-
-             <div className="grid grid-cols-[3fr_7fr]">
+             <div 
+                  className={`grid grid-cols-[3fr_7fr] transition-all ${isMouseEnter['policy2']? "bg-primary10 bg-opacity-20" : ""} rounded-xl py-6`}
+                  onMouseEnter={() => setIsMouseEnter({ ['policy2']: true})}
+                  onMouseLeave={() => setIsMouseEnter({ ['policy2']: false})}
+             >
                 <div>
-                   <img className='w-2/4 mx-auto my grid rounded-md mt-4 opacity-80' src={Wind} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
                 </div>
                 <div className="grid gap-5">
-                  <div className="font-medium text-xl">{data.Main7}</div>
-                  <div className="text-sm text-gray-400">{data.Content7}</div>
-                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
-                    <a href={data.Link7}><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
+                  <div className={`font-medium ${isMouseEnter['policy2']? "text-blue-400" : ""} text-xl`}> {data.Main2} </div>
+                  <div className="text-sm text-gray-400"> {data.Content2}</div>
+                  <div className={`text-sm text-gray-600 mr-1 ${isMouseEnter['policy2']? "text-primaryTitle underline" : "" }`} >
+                    <a href={data.Link1}><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> ติดตามผลงาน</a>
                   </div>
-                </div>                                
-             </div>
+                </div>                
+             </div> 
 
-
-             <div className="grid grid-cols-[3fr_7fr]">
+             <div 
+                  className={`grid grid-cols-[3fr_7fr] transition-all ${isMouseEnter['policy2']? "bg-primary10 bg-opacity-20" : ""} rounded-xl py-6`}
+                  onMouseEnter={() => setIsMouseEnter({ ['policy2']: true})}
+                  onMouseLeave={() => setIsMouseEnter({ ['policy2']: false})}
+             >
                 <div>
-                   <img className='w-2/4 mx-auto my grid rounded-md mt-4 opacity-80' src={Wind} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
                 </div>
                 <div className="grid gap-5">
-                  <div className="font-medium text-xl">{data.Main8}</div>
-                  <div className="text-sm text-gray-400">{data.Content8}</div>
-                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
-                    <a href={data.Link8}><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
+                  <div className={`font-medium ${isMouseEnter['policy2']? "text-blue-400" : ""} text-xl`}> {data.Main2} </div>
+                  <div className="text-sm text-gray-400"> {data.Content2}</div>
+                  <div className={`text-sm text-gray-600 mr-1 ${isMouseEnter['policy2']? "text-primaryTitle underline" : "" }`} >
+                    <a href={data.Link1}><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> ติดตามผลงาน</a>
                   </div>
-                </div>                                
-             </div>
+                </div>                
+             </div> 
 
-
-             <div className="grid grid-cols-[3fr_7fr]">
+             <div 
+                  className={`grid grid-cols-[3fr_7fr] transition-all ${isMouseEnter['policy2']? "bg-primary10 bg-opacity-20" : ""} rounded-xl py-6`}
+                  onMouseEnter={() => setIsMouseEnter({ ['policy2']: true})}
+                  onMouseLeave={() => setIsMouseEnter({ ['policy2']: false})}
+             >
                 <div>
-                   <img className='w-2/4 mx-auto my grid rounded-md mt-4 opacity-80' src={Wind} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
                 </div>
                 <div className="grid gap-5">
-                  <div className="font-medium text-xl">{data.Main9}</div>
-                  <div className="text-sm text-gray-400">{data.Content9}</div>
-                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
-                    <a href={data.Link9}><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
+                  <div className={`font-medium ${isMouseEnter['policy2']? "text-blue-400" : ""} text-xl`}> {data.Main2} </div>
+                  <div className="text-sm text-gray-400"> {data.Content2}</div>
+                  <div className={`text-sm text-gray-600 mr-1 ${isMouseEnter['policy2']? "text-primaryTitle underline" : "" }`} >
+                    <a href={data.Link1}><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> ติดตามผลงาน</a>
                   </div>
-                </div>                                
-             </div>
+                </div>                
+             </div> 
 
-
-             <div className="grid grid-cols-[3fr_7fr]">
+             <div 
+                  className={`grid grid-cols-[3fr_7fr] transition-all ${isMouseEnter['policy2']? "bg-primary10 bg-opacity-20" : ""} rounded-xl py-6`}
+                  onMouseEnter={() => setIsMouseEnter({ ['policy2']: true})}
+                  onMouseLeave={() => setIsMouseEnter({ ['policy2']: false})}
+             >
                 <div>
-                   <img className='w-2/4 mx-auto my grid rounded-md mt-4 opacity-80' src={Wind} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
                 </div>
                 <div className="grid gap-5">
-                  <div className="font-medium text-xl">{data.Main10}</div>
-                  <div className="text-sm text-gray-400">{data.Content10}</div>
-                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
-                    <a href={data.Link10}><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
+                  <div className={`font-medium ${isMouseEnter['policy2']? "text-blue-400" : ""} text-xl`}> {data.Main2} </div>
+                  <div className="text-sm text-gray-400"> {data.Content2}</div>
+                  <div className={`text-sm text-gray-600 mr-1 ${isMouseEnter['policy2']? "text-primaryTitle underline" : "" }`} >
+                    <a href={data.Link1}><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> ติดตามผลงาน</a>
                   </div>
-                </div>                                
-             </div>
+                </div>                
+             </div> 
 
-
-             <div className="grid grid-cols-[3fr_7fr]">
+             <div 
+                  className={`grid grid-cols-[3fr_7fr] transition-all ${isMouseEnter['policy2']? "bg-primary10 bg-opacity-20" : ""} rounded-xl py-6`}
+                  onMouseEnter={() => setIsMouseEnter({ ['policy2']: true})}
+                  onMouseLeave={() => setIsMouseEnter({ ['policy2']: false})}
+             >
                 <div>
-                   <img className='w-2/4 mx-auto my grid rounded-md mt-4 opacity-80' src={Wind} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
                 </div>
                 <div className="grid gap-5">
-                  <div className="font-medium text-xl">{data.Main11}</div>
-                  <div className="text-sm text-gray-400">{data.Content11}</div>
-                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
-                    <a href={data.Link11}><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
+                  <div className={`font-medium ${isMouseEnter['policy2']? "text-blue-400" : ""} text-xl`}> {data.Main2} </div>
+                  <div className="text-sm text-gray-400"> {data.Content2}</div>
+                  <div className={`text-sm text-gray-600 mr-1 ${isMouseEnter['policy2']? "text-primaryTitle underline" : "" }`} >
+                    <a href={data.Link1}><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> ติดตามผลงาน</a>
                   </div>
-                </div>                                
-             </div>
+                </div>                
+             </div> 
 
-
-             <div className="grid grid-cols-[3fr_7fr]">
+             <div 
+                  className={`grid grid-cols-[3fr_7fr] transition-all ${isMouseEnter['policy2']? "bg-primary10 bg-opacity-20" : ""} rounded-xl py-6`}
+                  onMouseEnter={() => setIsMouseEnter({ ['policy2']: true})}
+                  onMouseLeave={() => setIsMouseEnter({ ['policy2']: false})}
+             >
                 <div>
-                   <img className='w-2/4 mx-auto my grid rounded-md mt-4 opacity-80' src={Wind} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={UNFUNS} />
                 </div>
                 <div className="grid gap-5">
-                  <div className="font-medium text-xl">{data.Main12}</div>
-                  <div className="text-sm text-gray-400">{data.Content12}</div>
-                  <div className="text-xs text-gray-600 hover:underline hover:text-gray-400">
-                    <a href={data.Link12}><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-1"/>  อ่านข้อมูลเพิ่มเติม</a>
+                  <div className={`font-medium ${isMouseEnter['policy2']? "text-blue-400" : ""} text-xl`}> {data.Main2} </div>
+                  <div className="text-sm text-gray-400"> {data.Content2}</div>
+                  <div className={`text-sm text-gray-600 mr-1 ${isMouseEnter['policy2']? "text-primaryTitle underline" : "" }`} >
+                    <a href={data.Link1}><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> ติดตามผลงาน</a>
                   </div>
-                </div>                                
-             </div>
+                </div>                
+             </div> 
+
+             
+            
 
 
 
