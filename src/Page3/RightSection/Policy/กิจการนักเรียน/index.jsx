@@ -10,17 +10,19 @@ import trophy from "../../../../../public/9.png"
 import mv from "../../../../../public/10.png"
 import handtwo from "../../../../../public/11.png"
 import { data } from "../../../../Contents/Policy"
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 
 const Policy1 = () => {
+  
+
   const [isMouseEnter, setIsMouseEnter] = useState({});
 
 
     return(
-        <div className="mb-96 grid m-5 mt-8 ">
-            <div className="text-gray-600 grid gap-7" >ฝ่ายกิจการนักเรียน</div>
+        <div className="mb-56 grid m-5 mt-8 ">
+            <div className="text-gray-600 grid gap-7 mb-10 scroll-m-36" id="ฝ่ายกิจการนักเรียน-section" >ฝ่ายกิจการนักเรียน</div>
            
              <div 
                   className={`grid grid-cols-[3fr_7fr] transition-all ${isMouseEnter['policy1']? "bg-primary10 bg-opacity-20" : ""} rounded-xl py-6`}

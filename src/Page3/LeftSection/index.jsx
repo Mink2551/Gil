@@ -1,6 +1,7 @@
 import { faInstagram, faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
-import { faArrowLeftLong } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeftLong, faArrowRight, faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Navibar from "../Navibar";
 
 const LeftSection = () => {
     return(
@@ -11,13 +12,13 @@ const LeftSection = () => {
               <div className='ml-12 font-semibold text-xl text-primary8'>Party Policy</div> 
               <div className='ml-12 mt-3 font-extralight text-md text-gray-400 mr-12'>นโยบาย และ สิ่งที่เราจะเปลี่ยนแปลง คือ ความก้าวหน้าในโรงเรียน! เรามาร่วมเป็นส่วนร่วมในการช่วยกันพัฒนาโรงเรียนของเราให้ดีขึ้นกัน</div>
             </div>
-            <div className='ml-12 mr-14 mb-14 mt-14 flex flex-col gap-5 text-white'>
-              <div>ฝ่ายกิจการนักเรียน</div> 
-              <div>ฝ่ายวิชาการ</div> 
-              <div>ฝ่ายกีฬาและนันทนาการ</div> 
-              <div>ฝ่ายสิ่งแวดล้อม</div> 
-              <div>ฝ่ายเทคโนโลยี และ สาระสนเทศ</div> 
-            </div>
+
+
+
+            <Navibar/>
+
+
+
             <div className='grid text-white ml-12 grid-item-end'>              
               <div className='mt-24 flex gap-3 '>
                     <div className='ml-1 flex gap-3 text-4xl'>
