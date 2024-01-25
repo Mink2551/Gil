@@ -1,15 +1,16 @@
 import Policy1 from "./Policy/กิจการนักเรียน";
+import Policy2 from "./Policy/วิชาการ";
 
 const RightSection = () => {
     return(
-        <div className='mr-24 mt-4 ml-16 gird  text-white'>
+        <div className='mr-24 mt-16 ml-16 gird  text-white'>
            <Policy1/>
           
 
-          <div className="mb-96">
-             <div>ฝ่ายวิชาการ</div>  
+         
+           <Policy2/>  
 
-          </div>
+          
           
 
           <div className="mb-96">
