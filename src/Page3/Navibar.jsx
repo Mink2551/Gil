@@ -10,7 +10,7 @@ const navs = [
     { title:"ฝ่ายเทคโนโลยี และ สาระสนเทศ", sectionId:"ฝ่ายเทคโนโลยี และ สาระสนเทศ-section"},
 ]
 
-const Navibar = () => {
+const Navibar = ({ navBarItems }) => {
     const [isMouseEnter, setIsMouseEnter] = useState({});
 
     const handleClick = (sectionId) => {

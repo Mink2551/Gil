@@ -8,7 +8,7 @@ const Policy3 = () => {
 
     return(
         <div className="mb-56 grid m-5 mt-8 ">
-            <div className="text-gray-600 grid gap-7 scroll-m-36" id="ฝ่ายกีฬาและนันทนาการ-section" >ฝ่ายกีฬาและนันทนาการ</div>
+            <div className="text-gray-200 mb-16 grid gap-7 scroll-m-36" id="ฝ่ายกีฬาและนันทนาการ-section" >ฝ่ายกีฬาและนันทนาการ</div>
            
              <div 
                   className={`grid grid-cols-[3fr_7fr] transition-all ${isMouseEnter['policy1']? "bg-primary10 bg-opacity-20" : ""} rounded-xl py-6`}

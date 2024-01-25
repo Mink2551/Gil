@@ -3,10 +3,10 @@ import { faArrowLeftLong, faArrowRight, faArrowRightLong } from "@fortawesome/fr
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Navibar from "../Navibar";
 
-const LeftSection = () => {
+const LeftSection = ({ navBarItems }) => {
     return(
         <div className=''>
-          <div className='sticky top-24  grid grid-rows-[3fr_6fr_3fr] h-96vh'>
+          <div className='sticky top-24  grid grid-rows-[3fr_6fr_3fr] h-6vh'>
             <div className='mt-10'>             
               <div className='ml-12 mb-2 font-bold text-4xl text-primary6 mx-5'>3Fahprathanmaa's</div> 
               <div className='ml-12 font-semibold text-xl text-primary8'>Party Policy</div> 
@@ -15,7 +15,7 @@ const LeftSection = () => {
 
 
 
-            <Navibar/>
+            <Navibar navBarItems={navBarItems}/>
 
 
 

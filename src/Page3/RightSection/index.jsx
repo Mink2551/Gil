@@ -4,15 +4,25 @@ import Policy2 from "./Policy/วิชาการ";
 import Policy4 from "./Policy/สิ่งแวดล้อม/สิ่งแวดล้อม";
 import Policy5 from "./Policy/เทคโน";
 
-const RightSection = () => {
+const RightSection = ({ onInitial }) => {
     return(
         <div className='mr-24 mt-16 ml-16 gird  text-white'>
            
-           <Policy1/>       
-           <Policy2/>  
-           <Policy3/>
-           <Policy4/>
-           <Policy5/>
+           <Policy1
+            onInitial={onInitial}
+           />       
+           <Policy2
+           onInitial={onInitial}
+           />  
+           <Policy3
+           onInitial={onInitial}
+           />
+           <Policy4
+           onInitial={onInitial}
+           />
+           <Policy5
+           onInitial={onInitial}
+           />
         </div>
 
     )
