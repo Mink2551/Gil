@@ -14,14 +14,7 @@ import { useEffect, useState } from "react";
 
 
 
-const Policy1 = () => ({
-  onInitial
-}) => {
-
-  useEffect(()=>{
-  onInitial(ฝ่ายกิจการนักเรียน-section);
-  }, [])
-     
+const Policy1 = () => {
 
 
   const [isMouseEnter, setIsMouseEnter] = useState({});
