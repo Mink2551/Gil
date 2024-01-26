@@ -5,8 +5,8 @@ import Navibar from "../Navibar";
 
 const LeftSection = ({ navBarItems }) => {
     return(
-        <div className=''>
-          <div className='sticky top-24  grid grid-rows-[3fr_6fr_3fr] h-6vh'>
+        <div className='' class="break-all">
+          <div className='sticky top-24  grid grid-rows-[4fr_6fr_4fr] h-6vh'>
             <div className='mt-10'>             
               <div className='ml-12 mb-2 font-bold text-4xl text-primary6 mx-5'>3Fahprathanmaa's</div> 
               <div className='ml-12 font-semibold text-xl text-primary8'>Party Policy</div> 
@@ -28,8 +28,8 @@ const LeftSection = ({ navBarItems }) => {
                     <a href="https://www.instagram.com/gilbertlnwza333.airline/" target='_blank'>
                       <FontAwesomeIcon className='hover:scale-125 mt-4 transition-all' icon={faInstagramSquare}/>
                    </a>
-                      <div className="text-sm text-gray-600 mt-7 flex">
-                        inspiration from <a className="hover:text-gray-400 " target='_blank' href="https://blackboy96.xyz/">"https://blackboy96.xyz/"</a>
+                      <div className=" text-sm text-gray-600 mt-7 flex" >
+                        inspiration from <a className="hover:text-gray-400 " class="break-all"target='_blank' href="https://blackboy96.xyz/">"https://blackboy96.xyz/"</a>
                       </div>
                     </div>                
                </div>            
