@@ -35,8 +35,8 @@ function App() {
                 </a>
       </div>
       <div className=' mx-auto max-w-7xl grid lg:grid-cols-[4fr_6fr] gap-7 '>
-        <LeftSection navBarItems={navBarItems}/>
-        <RightSection onInitial={addSectionIds}/>       
+        <LeftSection/>
+        <RightSection/>       
       </div>
     </div>
       
