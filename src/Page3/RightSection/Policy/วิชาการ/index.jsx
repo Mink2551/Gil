@@ -22,7 +22,7 @@ const Policy2 = () => {
                   onMouseLeave={() => setIsMouseEnter({ ['policy1']: false})}
              >
                 <div>
-                  <img className=' mx-auto my grid rounded-md mt-4' src={tiktok} />
+                  <img className=' mx-auto my grid rounded-md opacity-80' src={tiktok} />
                 </div>
                 <div className="grid gap-5">
                   <div className={`font-medium ${isMouseEnter['policy1']? "text-primary11" : ""} text-xl`}> {data.Main1} </div>
