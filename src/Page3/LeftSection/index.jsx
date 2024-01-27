@@ -8,14 +8,15 @@ const LeftSection = ({ navBarItems }) => {
         <div className=''>
           <div className='sticky top-24  grid grid-rows-[4fr_6fr_4fr] h-6vh'>
             <div className='mt-10'>             
-              <div className='break-all ml-12 mb-2 font-bold text-4xl text-primary6 mx-5'>3Fahprathanmaa's</div> 
+              <div className='break-all ml-12 mb-2 font-bold text-3xl text-primary6 mx-5 mr-16'>3Fahprathanmaa's</div> 
               <div className='ml-12 font-semibold text-xl text-primary8'>Party Policy</div> 
-              <div className='break-all ml-12 mt-3 font-extralight text-md text-gray-400 mr-12'>นโยบาย และ สิ่งที่เราจะเปลี่ยนแปลง คือ ความก้าวหน้าในโรงเรียน! เรามาร่วมเป็นส่วนร่วมในการช่วยกันพัฒนาโรงเรียนของเราให้ดีขึ้นกัน</div>
+              <div className='break-all ml-12 mt-3 font-extralight text-md text-gray-400 pr-12 mr-16'>นโยบาย และ สิ่งที่เราจะเปลี่ยนแปลง คือ ความก้าวหน้าในโรงเรียน! เรามาร่วมเป็นส่วนร่วมในการช่วยกันพัฒนาโรงเรียนของเราให้ดีขึ้นกัน</div>
             </div>
 
 
-
+            <div className="mr-24">
             <Navibar/>
+            </div>
 
 
 
@@ -28,8 +29,8 @@ const LeftSection = ({ navBarItems }) => {
                     <a href="https://www.instagram.com/gilbertlnwza333.airline/" target='_blank'>
                       <FontAwesomeIcon className='hover:scale-125 mt-4 transition-all' icon={faInstagramSquare}/>
                    </a>
-                      <div className="break-all text-sm text-gray-600 mt-7 flex">
-                        inspiration from <a className="hover:text-gray-400 " target='_blank' href="https://blackboy96.xyz/">"https://blackboy96.xyz/"</a>
+                      <div className="break-all text-xs text-gray-600 mt-7 mr-12 flex">
+                        inspiration from <a className="hover:text-gray-400 " target='_blank' href="https://blackboy96.xyz/">"blackboy96"</a>
                       </div>
                     </div>                
                </div>            
