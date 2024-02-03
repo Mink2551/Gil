@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Comment from "../../../../public/Comment.jpg"
+import Comment from "../../../../public/comment.jpg"
 
 const CardComment = () => {
     return(
