@@ -40,7 +40,7 @@ const Navibar = ({ navBarItems }) => {
                 )) 
               }
               
-            </div>
+         </div>
     )
 }
 

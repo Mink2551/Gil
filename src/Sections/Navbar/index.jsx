@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Navbar = () =>{
     return(
         <div className='mx-auto grid sticky top-0'>
-        <div className='bg-blue-400 '>
+        <div className='bg-blue-400 shadow-xl'>
           <div >
             <div className=' mx-auto flex flex-cols-[40%_60%] ml-5 p-3 pt-5 pb-5 gap-9  '>
               <div>
