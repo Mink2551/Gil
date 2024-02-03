@@ -4,7 +4,7 @@ import Comment from "../../../../public/Comment.jpg"
 const CardComment = () => {
     return(
        <div className="card bg-base-100 shadow-xl opacity-60">
-              <figure><img src={Comment} alt="Comment" /></figure>
+              <figure><img src={Comment}  /></figure>
               <div className="card-body">
                 <h2 className="card-title">
                   Comment
@@ -16,7 +16,7 @@ const CardComment = () => {
                 </div>
               </div>
          </div>
-         
+
     )
 }
 
