@@ -19,7 +19,7 @@ const Navbar = () =>{
                 <a href="/policy">
                   <div className='text-blue-900 hover:text-gray-200 transition-all'>นโยบาย</div>
                 </a>
-                <a href="">
+                <a href="/workings">
                   <div className='text-blue-900 hover:text-gray-200 transition-all'>ผลงาน</div>
                 </a>
               </div>

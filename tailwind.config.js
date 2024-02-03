@@ -3,6 +3,8 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+
+   
   ],
   theme: {
     extend: {
@@ -26,10 +28,13 @@ export default {
         primarybg2: "#0E0E0E",
         
         
+        
 
       }
     },
   },
+
+  
   plugins: [],
 }
 
