@@ -12,8 +12,8 @@ const Cardtimeline = () => {
           onMouseLeave={() => setIsMouseEnter({ ['card1']: false})}
        >
         
-              <figure ><img  src={timeline} alt="timeline" /></figure>
-              <div className="card-body ">
+              <figure ><img src={timeline} alt="timeline" /></figure>
+              <div className={`card-body transition-all ${isMouseEnter['card1']? "scale-105" : ""}`}>
                 <h2 className={`card-title ${isMouseEnter['card1']? "text-blue-800" : ""}`}>
                   Timeline
                   <div className={`badge ${isMouseEnter['card1']? "badge-outline" : ""} badge-secondary`}>NEW</div>

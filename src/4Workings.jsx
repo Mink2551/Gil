@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 
+
 function App() {
   
 
@@ -19,11 +20,13 @@ function App() {
       <div className='m-10 mt-10 max-w-7xl mx-auto '>
         <div className='sm:flex'>
            <div className='ml-10 font-bold text-5xl text-primary4'>ผลงาน</div>
-           <div className='ml-5 text-2xl mt-4 text-primary6 font-semibold'>ของพรรค 3Fahprathanmaa</div>
+           <div className='ml-5 text-2xl mt-4 text-primary6 font-semibold pr-6'>ของพรรค 3Fahprathanmaa</div>
+           
         </div> 
         <Maincontent/>
       </div>     
       <Social/>
+      
 
     </div>
   )
