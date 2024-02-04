@@ -51,7 +51,7 @@ const Rightsections = () =>{
                   <div className='text-black-200 test-xl font-medium mt-2'></div>
                   <div className='mt-1'>
                     <span className='bg-primaryAccent rounded-md text-gray-200 py-3 px-4 transition-all hover:bg-primary4'>
-                      <a href="#">
+                      <a href="/Workings">
                         {data.Botton3}
                         <FontAwesomeIcon className='text-sm ml-2' icon={faArrowRight} />
                       </a>

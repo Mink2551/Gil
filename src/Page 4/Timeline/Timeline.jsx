@@ -1,12 +1,13 @@
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Timeline1 from "./Timeline1"
+import Social from "../../Sections/Social"
 
 function App() {
   
 
     return (
-      <div >
+      <div className="" >
         <div className='text-primarybg1 ml-8 pt-1 text-3xl mt-5'>
                 <a href="/Workings" className='hover:text-gray-400'>
                   <FontAwesomeIcon icon={faArrowLeft}/> 
@@ -20,6 +21,7 @@ function App() {
           </div>
         </div>
         <Timeline1/>
+        <Social/>
         
       </div>
     )

@@ -1,6 +1,7 @@
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Timeline3 from "./Timeline3"
+import Social from "../../Sections/Social"
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
           </div>
         </div>
         <Timeline3/>
+        <Social/>
         
       </div>
     )
