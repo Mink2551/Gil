@@ -15,7 +15,7 @@ const cardKidjakramCalendar = () => {
            <figure ><img src={Carlendar} alt="Carlendar" /></figure>
            <div className={`card-body transition-all ${isMouseEnter['card1']? "scale-105" : ""}`}>
              <h2 className={`card-title ${isMouseEnter['card1']? "text-blue-800" : ""}`}>
-               Carlendar
+               KidjakarnCarlendar
                <div className={`badge ${isMouseEnter['card1']? "badge-outline" : ""} badge-secondary`}>NEW</div>
              </h2>
              <p className={`${isMouseEnter['card1']? "text-blue-600" : ""}`}>ตาราง ปฏิทิน กิจกรรมและอีเว้นใน โรงเรียน </p>
