@@ -10,6 +10,8 @@ import Timeline1 from "./Page 4/Timeline/Timeline1";
 import Timeline2 from "./Page 4/Timeline/Timeline2";
 import Timeline3 from "./Page 4/Timeline/Timeline3";
 import Carlendarmain from "./Page 4/Carlendar/Carlendarmain";
+import Partymembermain from "./Page 4/Partymember/Partymembermain";
+import Partymembertree from "./Page 4/Partymember/Partymembertree";
 
 
 const router = createBrowserRouter([
@@ -57,7 +59,14 @@ const router = createBrowserRouter([
     path: "/carlendarmain",
     element: <Carlendarmain/>,
   },
-  
+  {
+    path: "/partymembermain",
+    element: <Partymembermain/>,
+  },
+  {
+    path: "/partymembertree",
+    element: <Partymembertree/>,
+  },
 
 ]);
 
