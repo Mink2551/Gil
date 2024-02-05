@@ -44,12 +44,15 @@ const Partymembertable = () => {
                     <td>เลขานุการ</td>
                   </tr>               
                 </tbody>
+               
               </table>
             </div>
 
+            
+
             <div className="overflow-x-auto bg-white ">
               <table className="table">
-                {/* รองประธานนักเรียนฝ่ายกิจการนักเรียน */}
+                {/* Head */}
                 <thead>
                   <tr className="grid grid-cols-[1fr_5fr_3fr_2fr]">
                     <th></th>
@@ -58,13 +61,34 @@ const Partymembertable = () => {
                     <th>Position</th>
                   </tr>
                 </thead>
+
                 <tbody>
-                  {/* row 1 */}
+                  {/* กรรมการนักเรียนฝ่ายกิจการนักเรียน */}
                   <tr className="grid grid-cols-[1fr_5fr_3fr_2fr] hover" >
                     <th>1</th>
                     <td></td>
                     <td></td>
                     <td>รองประธานนักเรียนฝ่ายกิจการนักเรียน</td>
+                  </tr>               
+                </tbody>
+                
+                <tbody>
+                  {/* รองประธานนักเรียนฝ่ายวิชาการ */}
+                  <tr className="grid grid-cols-[1fr_5fr_3fr_2fr] hover" >
+                    <th>2</th>
+                    <td></td>
+                    <td></td>
+                    <td>รองประธานนักเรียนฝ่ายวิชาการ</td>
+                  </tr>               
+                </tbody>
+                
+                <tbody>
+                  {/* รองประธานนักเรียนฝ่ายกีฬาและนันทนาการ */}
+                  <tr className="grid grid-cols-[1fr_5fr_3fr_2fr] hover" >
+                    <th>3</th>
+                    <td></td>
+                    <td></td>
+                    <td>รองประธานนักเรียนฝ่ายกีฬาและนันทนาการ</td>
                   </tr>               
                 </tbody>
               </table>
@@ -219,29 +243,6 @@ const Partymembertable = () => {
               </table>
             </div>
 
-            <div className="overflow-x-auto bg-white ">
-              <table className="table">
-                {/* รองประธานนักเรียนฝ่ายวิชาการ */}
-                <thead>
-                  <tr className="grid grid-cols-[1fr_5fr_3fr_2fr]">
-                    <th></th>
-                    <th>Name</th>                   
-                    <th>Class</th>
-                    <th>Position</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {/* row 1 */}
-                  <tr className="grid grid-cols-[1fr_5fr_3fr_2fr] hover" >
-                    <th>1</th>
-                    <td></td>
-                    <td></td>
-                    <td>รองประธานนักเรียนฝ่ายวิชาการ</td>
-                  </tr>               
-                </tbody>
-              </table>
-            </div>
-
             <div className="overflow-x-auto bg-white  ">
               <table className="table">
                 {/* กรรมการนักเรียนฝ่ายวิชาการ */}
@@ -391,28 +392,7 @@ const Partymembertable = () => {
               </table>
             </div>
 
-            <div className="overflow-x-auto bg-white ">
-              <table className="table">
-                {/* รองประธานนักเรียนฝ่ายกีฬาและนันทนาการ */}
-                <thead>
-                  <tr className="grid grid-cols-[1fr_5fr_3fr_2fr]">
-                    <th></th>
-                    <th>Name</th>                   
-                    <th>Class</th>
-                    <th>Position</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {/* row 1 */}
-                  <tr className="grid grid-cols-[1fr_5fr_3fr_2fr] hover" >
-                    <th>1</th>
-                    <td></td>
-                    <td></td>
-                    <td>รองประธานนักเรียนฝ่ายกีฬาและนันทนาการ</td>
-                  </tr>               
-                </tbody>
-              </table>
-            </div>
+            
 
             <div className="overflow-x-auto bg-white  ">
               <table className="table">
