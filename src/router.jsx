@@ -12,6 +12,7 @@ import Timeline3 from "./Page 4/Timeline/Timeline3";
 import Carlendarmain from "./Page 4/Carlendar/Carlendarmain";
 import Partymembermain from "./Page 4/Partymember/Partymembermain";
 import Partymembertree from "./Page 4/Partymember/Partymembertree";
+import Announcemain from "./Page 4/Announce/Announcemain";
 
 
 const router = createBrowserRouter([
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
   {
     path: "/partymembertree",
     element: <Partymembertree/>,
+  },
+  {
+    path: "/announcemain",
+    element: <Announcemain/>,
   },
 
 ]);
