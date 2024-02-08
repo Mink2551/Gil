@@ -1,3 +1,5 @@
+import { data } from "../../Contents/Partymember"
+
 const Partymembertable = () => {
     return(
         <div className="max-w-7xl mx-auto my-20 grid gap-20 px-2">
@@ -15,10 +17,10 @@ const Partymembertable = () => {
                 <tbody>
                   {/* ประธานนักเรียน */}
                   <tr className="grid grid-cols-[1fr_5fr_3fr_2fr] hover">
-                    <th>1</th>
-                    <td>นาย ธีระเศรษฐ์ พิมลวิรัชกุล (กิลเบิร์ต)</td>
-                    <td>ศิลป์ภาษาญี่ปุ่น</td>
-                    <td>ประธานนักเรียน</td>
+                    <th>{data.Number1}</th>
+                    <td>{data.Name1}</td>
+                    <td>{data.Class1}</td>
+                    <td>{data.Position1}</td>
                   </tr>               
                 </tbody>
               </table>
@@ -38,10 +40,10 @@ const Partymembertable = () => {
                 <tbody>
                   {/* row 1 */}
                   <tr className="grid grid-cols-[1fr_5fr_3fr_2fr] hover" >
-                    <th>1</th>
-                    <td></td>
-                    <td></td>
-                    <td>เลขานุการ</td>
+                    <th>{data.Number2}</th>
+                    <td>{data.Name2}</td>
+                    <td>{data.Class2}</td>
+                    <td>{data.Position2}</td>
                   </tr>               
                 </tbody>
                
@@ -65,30 +67,30 @@ const Partymembertable = () => {
                 <tbody>
                   {/* กรรมการนักเรียนฝ่ายกิจการนักเรียน */}
                   <tr className="grid grid-cols-[1fr_5fr_3fr_2fr] hover" >
-                    <th>1</th>
-                    <td></td>
-                    <td></td>
-                    <td>รองประธานนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <th>{data.Number3}</th>
+                    <td>{data.Name3}</td>
+                    <td>{data.Class3}</td>
+                    <td>{data.Position3}</td>
                   </tr>               
                 </tbody>
                 
                 <tbody>
                   {/* รองประธานนักเรียนฝ่ายวิชาการ */}
                   <tr className="grid grid-cols-[1fr_5fr_3fr_2fr] hover" >
-                    <th>2</th>
-                    <td></td>
-                    <td></td>
-                    <td>รองประธานนักเรียนฝ่ายวิชาการ</td>
+                    <th>{data.Number4}</th>
+                    <td>{data.Name4}</td>
+                    <td>{data.Class4}</td>
+                    <td>{data.Position4}</td>
                   </tr>               
                 </tbody>
                 
                 <tbody>
                   {/* รองประธานนักเรียนฝ่ายกีฬาและนันทนาการ */}
                   <tr className="grid grid-cols-[1fr_5fr_3fr_2fr] hover" >
-                    <th>3</th>
-                    <td></td>
-                    <td></td>
-                    <td>รองประธานนักเรียนฝ่ายกีฬาและนันทนาการ</td>
+                    <th>{data.Number5}</th>
+                    <td>{data.Name5}  </td>
+                    <td>{data.Class5}</td>
+                    <td>{data.Position5}</td>
                   </tr>               
                 </tbody>
               </table>
@@ -111,7 +113,7 @@ const Partymembertable = () => {
                     <th>1</th>
                     <td></td>
                     <td></td>
-                    <td>กรรมการนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <td>{data.Position6}</td>
                   </tr>               
                 </tbody>
                 <tbody>
@@ -120,7 +122,7 @@ const Partymembertable = () => {
                     <th>2</th>
                     <td></td>
                     <td></td>
-                    <td>กรรมการนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <td>{data.Position7}</td>
                   </tr>               
                 </tbody>
                 <tbody>
@@ -129,7 +131,7 @@ const Partymembertable = () => {
                     <th>3</th>
                     <td></td>
                     <td></td>
-                    <td>กรรมการนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <td>{data.Position8}</td>
                   </tr>               
                 </tbody>
                 <tbody>
@@ -138,7 +140,7 @@ const Partymembertable = () => {
                     <th>4</th>
                     <td></td>
                     <td></td>
-                    <td>กรรมการนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <td>{data.Position9}</td>
                   </tr>               
                 </tbody>
                 <tbody>
@@ -147,7 +149,7 @@ const Partymembertable = () => {
                     <th>5</th>
                     <td></td>
                     <td></td>
-                    <td>กรรมการนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <td>{data.Position10}</td>
                   </tr>               
                 </tbody>
                 <tbody>
@@ -156,7 +158,7 @@ const Partymembertable = () => {
                     <th>6</th>
                     <td></td>
                     <td></td>
-                    <td>กรรมการนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <td>{data.Position11}</td>
                   </tr>               
                 </tbody>
                 <tbody>
@@ -165,7 +167,7 @@ const Partymembertable = () => {
                     <th>7</th>
                     <td></td>
                     <td></td>
-                    <td>กรรมการนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <td>{data.Position12}</td>
                   </tr>               
                 </tbody>
                 <tbody>
@@ -174,7 +176,7 @@ const Partymembertable = () => {
                     <th>8</th>
                     <td></td>
                     <td></td>
-                    <td>กรรมการนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <td>{data.Position13}</td>
                   </tr>               
                 </tbody>
                 <tbody>
@@ -183,7 +185,7 @@ const Partymembertable = () => {
                     <th>9</th>
                     <td></td>
                     <td></td>
-                    <td>กรรมการนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <td>{data.Position14}</td>
                   </tr>               
                 </tbody>
                 <tbody>
@@ -192,7 +194,7 @@ const Partymembertable = () => {
                     <th>10</th>
                     <td></td>
                     <td></td>
-                    <td>กรรมการนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <td>{data.Position15}</td>
                   </tr>               
                 </tbody>
                 <tbody>
@@ -201,7 +203,7 @@ const Partymembertable = () => {
                     <th>11</th>
                     <td></td>
                     <td></td>
-                    <td>กรรมการนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <td>{data.Position16}</td>
                   </tr>               
                 </tbody>
                 <tbody>
@@ -210,7 +212,7 @@ const Partymembertable = () => {
                     <th>12</th>
                     <td></td>
                     <td></td>
-                    <td>กรรมการนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <td>{data.Position17}</td>
                   </tr>               
                 </tbody>
                 <tbody>
@@ -219,7 +221,7 @@ const Partymembertable = () => {
                     <th>13</th>
                     <td></td>
                     <td></td>
-                    <td>กรรมการนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <td>{data.Position18}</td>
                   </tr>               
                 </tbody>
                 <tbody>
@@ -228,7 +230,7 @@ const Partymembertable = () => {
                     <th>14</th>
                     <td></td>
                     <td></td>
-                    <td>กรรมการนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <td>{data.Position19}</td>
                   </tr>               
                 </tbody>
                 <tbody>
@@ -237,7 +239,7 @@ const Partymembertable = () => {
                     <th>15</th>
                     <td></td>
                     <td></td>
-                    <td>กรรมการนักเรียนฝ่ายกิจการนักเรียน</td>
+                    <td>{data.Position20}</td>
                   </tr>               
                 </tbody>
               </table>

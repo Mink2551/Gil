@@ -22,6 +22,9 @@ const Navbar = () =>{
                 <a href="/workings">
                   <div className='text-blue-900 hover:text-gray-200 transition-all'>ผลงาน</div>
                 </a>
+                <a href="/announcemain">
+                  <div className='text-blue-800 hover:text-gray-200 transition-all'>ประกาศ</div>
+                </a>
               </div>
             </div>
           </div>
